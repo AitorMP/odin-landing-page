@@ -96,3 +96,47 @@
   height: 400px;
   color: #F9FAF8;
  }
+
+ /*Card section*/
+
+.card-container, h2 {
+  text-align: center;
+  padding: 100px;
+  }
+
+  .card-container h2{
+    font-size: 34px;
+    padding: 20px;
+    margin-bottom: 80px;
+
+  }
+
+ .card-content {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+ }
+
+ .card-content img{
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  border: 4px solid gold;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+ }
+
+ .card-content p {
+  width: 200px;
+  margin: 20px 20px;
+ }
+
+/*Quote section*/
+
+ .quote {
+  padding: 100px;
+  background-color: #E5E7EB;
+  font-size: 36px;
+ }
