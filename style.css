@@ -1,5 +1,4 @@
 * {
-    border: 1px solid red;
     padding: 0;
     margin: 0;
     
@@ -139,4 +138,46 @@
   padding: 100px;
   background-color: #E5E7EB;
   font-size: 36px;
+ }
+
+ /*Blue banner section*/
+
+ .blue-banner-box{
+  margin: 50px 160px;
+  padding: 30px 100px;
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+ }
+
+ .blue-banner-text {
+ color: white;
+ display: flex;
+ flex-direction: column;
+ 
+ 
+ }
+
+ .blue-banner-btn{
+  flex-shrink: 0;
+  color: #fff;
+  height: 36px;
+  width: 128px;
+  margin: 24px auto;
+  padding: 4px 10px;
+  font-family: 'Roboto', arial;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #3882F6;
+  font-size: 15px;
+      
+ }
+
+ /*footer*/
+
+ footer{
+  background-color: #1F2937;
+  color: #E5E7EB;
+  text-align: center;
+  padding: 25px;
  }
